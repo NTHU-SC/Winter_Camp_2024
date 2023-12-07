@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/NCHC.jpg";
-import feature6 from "../assets/images/TsingHua.Team.02.jpg";
+import feature5 from "../assets/images/TsingHua.Team.02.jpg";
+import feature6 from "../assets/images/2023-summer.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (

@@ -8,7 +8,7 @@ import Yi from "../assets/images/2022-Yi.jpg";
 import Wu from "../assets/images/2022-Wu.jpg";
 import 小Ｐ from "../assets/images/小P.png";
 import Nevikw from "../assets/images/2023-Nevikw.jpg";
-
+// import group_photo from "../assets/images/2023-group-photo.jpg"
 
 const testimonialsDataUpperRow = [
   {
@@ -54,7 +54,7 @@ const testimonialsDataLowerRow = [
     customerName: "小P",
     customerTitle: "努力長大中，想要跑得超級快！",
     content:
-      "來參加HPCAI冬令營吧！這裡的夥伴都超友善的，大家都願意互相幫助～不管遇到什麼問題，都可以勇敢發問，一起成長！😊🌈",
+      "來參加HPCAI夏令營吧！這裡的夥伴都超友善的，大家都願意互相幫助～不管遇到什麼問題，都可以勇敢發問，一起成長！😊🌈",
     image: 小Ｐ,
   },
 
