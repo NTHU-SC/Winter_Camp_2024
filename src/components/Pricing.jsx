@@ -30,7 +30,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/pySrDpxeAaMkCYLEA/', '_blank');
+    window.open('https://forms.gle/vxWcAwZCLovDLCRV8', '_blank');
   };
 
   return (
@@ -82,36 +82,6 @@ export const Pricing = () => {
             </div>
             <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center mt-20 justify-center">
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div className="p-8 bg-customDarkBg3 rounded-3xl">
-                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
-                  安心追夢
-                  </h4>
-                  <div className="flex justify-start items-end">
-                    <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
-                      $0
-                    </div>
-                  </div>
-
-                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                  擁有中低收、低收或清寒證明者由國網中心補助參與
-                  </p>
-                  <ul className="mb-2 2xl:mb-6 text-white">
-                    {pricingData.map((text, index) => (
-                      <li className="mb-4 flex" key={`${text}-${index}`}>
-                        <CheckArrowIcon />
-                        <span>{text}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  {/* <div
-                    className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
-                    onClick={() => setIsModalOpen(true)}
-                  >
-                    Get Started
-                  </div> */}
-                </div>
-              </div>
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="px-8 py-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 2xl:mb-4 text-2xl font-bold font-heading text-white text-left">
                     含住宿
@@ -143,6 +113,36 @@ export const Pricing = () => {
               <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
                 <div className="p-8 bg-customDarkBg3 rounded-3xl">
                   <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
+                  安心追夢
+                  </h4>
+                  <div className="flex justify-start items-end">
+                    <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
+                      $0
+                    </div>
+                  </div>
+
+                  <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
+                  擁有中低收、低收或清寒證明者由國網中心補助參與
+                  </p>
+                  <ul className="mb-2 2xl:mb-6 text-white">
+                    {pricingData.map((text, index) => (
+                      <li className="mb-4 flex" key={`${text}-${index}`}>
+                        <CheckArrowIcon />
+                        <span>{text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {/* <div
+                    className="inline-block text-center py-2 px-4 w-full rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
+                    onClick={() => setIsModalOpen(true)}
+                  >
+                    Get Started
+                  </div> */}
+                </div>
+              </div>
+              {/* <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+                <div className="p-8 bg-customDarkBg3 rounded-3xl">
+                  <h4 className="mb-2 text-xl font-bold font-heading text-white text-left">
                     不含住宿（高中生不適用此方案）
                   </h4>
                   <div className="flex justify-start items-end">
@@ -162,7 +162,7 @@ export const Pricing = () => {
                     ))}
                   </ul>
                 </div>
-              </div>
+              </div> */}
               <div
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}

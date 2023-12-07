@@ -56,10 +56,10 @@ export const Features2 = () => (
                 <CheckArrowIcon />
                 <span>清大超算競賽常勝軍擔任課程助教</span>
               </li>
-              <li className="mb-4 flex">
+              {/* <li className="mb-4 flex">
                 <CheckArrowIcon />
                 <span>邀請 NVIDIA 專家到場演講與交流</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

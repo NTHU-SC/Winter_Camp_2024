@@ -83,7 +83,7 @@ export const Brands = () => (
                   />
                 </a>
               </div> */}
-              <div className="flex py-3 justify-center">
+              {/* <div className="flex py-3 justify-center">
                 <a href="https://www.aims.org.tw/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={AiMS_logo}
@@ -91,7 +91,7 @@ export const Brands = () => (
                     className="rounded-xl  custom-border-gray"
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
