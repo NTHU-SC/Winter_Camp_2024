@@ -8,7 +8,7 @@ export const GOGO = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/DWqtfWvNPMW4nYrTA/', '_blank');
+    window.open('https://forms.gle/vxWcAwZCLovDLCRV8', '_blank');
   };
 
   return (

@@ -30,7 +30,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/DWqtfWvNPMW4nYrTA/', '_blank');
+    window.open('https://forms.gle/pySrDpxeAaMkCYLEA/', '_blank');
   };
 
   return (
