@@ -30,7 +30,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/vxWcAwZCLovDLCRV8', '_blank');
+    window.open('https://www.facebook.com/groups/300519702549029/', '_blank');
   };
 
   return (
@@ -167,7 +167,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
-                1/7 截止，立刻報名！
+                搶先加入 FB 社團！
               </div>
             </div>
           </div>
