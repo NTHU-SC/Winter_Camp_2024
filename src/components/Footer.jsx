@@ -17,8 +17,9 @@ const footerData = [
     title: "清大叢集電腦競賽團隊",
     items: [
       { label: "官方網站", link: "https://scc.nthu.site/" },
-      { label: "GitHub", link: "https://github.com/nthu-sc" },
+      { label: "Facebook", link: "https://www.facebook.com/groups/300519702549029/" },
       { label: "Twitter", link: "https://twitter.com/nthuscc" },
+      { label: "GitHub", link: "https://github.com/nthu-sc" },
     ],
   },
   // {
@@ -148,7 +149,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023. HPC x AI Winter Camp all rights reserved.
+            &copy; 2024. HPC x AI Winter Camp all rights reserved.
           </p>
         </div>
       </div>
