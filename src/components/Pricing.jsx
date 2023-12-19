@@ -52,11 +52,13 @@ export const Pricing = () => {
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              招生對象：不限，但名額有限，學生身份優先錄取
+              招生對象：不限，但高中身份優先錄取
               <br />
               授課地點：清華大學資電館
               <br />
-              收費用途：用於住宿及飲食
+              授課時間：2024/1/27(六)~2024/1/29(一)
+              <br />
+              收費用途：用於課程、住宿，另可自費 500 協助安排營隊前一天住宿。
               </p>
 
               {/* for swich between monthly and yearly. 
