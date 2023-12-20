@@ -96,9 +96,9 @@ const MyTable = () => {
       <thead>
         <tr>
           <th> </th>
-          <th>第一天 1/27 (一)</th>
-          <th>第二天 1/28 (二)</th>
-          <th>第三天 1/29 (二)</th>
+          <th>第一天 1/27 (六)</th>
+          <th>第二天 1/28 (日)</th>
+          <th>第三天 1/29 (一)</th>
         </tr>
       </thead>
       <tbody>
